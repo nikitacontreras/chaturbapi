@@ -1,0 +1,22 @@
+{
+	"name": "chaturbapi",
+	"version": "1.0.0",
+	"description": "Library to interact with the Chaturbate API",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"typescript": "^5.7.2"
+	},
+	"keywords": [
+		"chaturbate",
+		"api",
+		"affiliate",
+		"statistics"
+	],
+	"author": "@nikitacontreras",
+	"license": "MIT"
+}
