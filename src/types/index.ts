@@ -1,5 +1,6 @@
 export * from './events'
 export * from './stats'
+export * from "./affiliate";
 
 export type StatsRow = {
     [key: string]: string | number;

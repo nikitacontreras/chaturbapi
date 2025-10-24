@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "ESNext",
+    // "module": "ESNext",
     "moduleResolution": "node",
     "outDir": "./dist",
     "esModuleInterop": true,
     "declaration": true,
-    "declarationDir": "./dist",
+    "module": "system",
     "strict": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "types": [
+      "node"
+    ]
   },
   "include": [
     "src/**/*.ts"
